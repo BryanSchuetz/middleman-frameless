@@ -14,7 +14,7 @@ Just your basic blank slate of a [Middleman](http://middlemanapp.com/) --rack pr
 
 ## Usage
 
-Download and install into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`. 
+Download and install into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`. For example: `middleman init your-project --template=middleman-frameless`
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/).
 
