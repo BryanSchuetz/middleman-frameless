@@ -1,5 +1,7 @@
 # Middleman Project Template: with Frameless adaptive grid
 
+------
+
 Just your basic blank slate of a [Middleman](http://middlemanapp.com/) --rack project, including grid SASS from [Frameless](http://framelessgrid.com/).
 ------
 [Middleman](http://middlemanapp.com/) is a static site generator based on Sinatra. Providing dozens of templating languages (Haml, Sass, Compass, Slim, CoffeeScript, and more). Makes minification, compression, cache busting, Yaml data (and more) an easy part of your development cycle.
