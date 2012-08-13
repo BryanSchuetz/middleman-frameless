@@ -1,0 +1,19 @@
+<% @title = "Frameless Middleman" %>
+<header>
+    <h1>Frameless Template</h1>
+</header>
+  <div id="container">
+    <div id="intro">
+      <%= image_tag('/images/middleman.png', :alt => 'middleman logo') %>
+      <p>A <%= link_to 'Middleman', 'http://middlemanapp.com/', :target => '_blank' %> template with adaptive <%= link_to 'Frameless', 'http://framelessgrid.com/', :target => '_blank' %> grid.</p>
+    </div>
+    <hr>
+    <div id="frameless">
+      <h2>Frameless</h2>
+      <p>Make a regular fixed width grid. Pick a column width, a gutter width… you know, the usual stuff. Make it repeat infinitely. Now, center it on the viewport. No matter how wide you make your viewport, more and more columns come into view. Now make awesome stuff.</p>
+    </div>
+    <div id="middleman">
+      <h2>Middleman</h2>
+      <p>Middleman is a static site generator based on Sinatra. Providing dozens of templating languages (Haml, Sass, Compass, Slim, CoffeeScript, and more). Makes minification, compression, cache busting, Yaml data (and more) an easy part of your development cycle.</p>
+    </div>
+  </div>
