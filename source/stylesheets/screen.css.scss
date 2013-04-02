@@ -1,9 +1,6 @@
 //Imports
 @import "modules/grid";
 @import "modules/normalize";
-//Variables
-
-//Grid
 header{
   margin-right: auto;
   margin-left: auto;
@@ -11,21 +8,29 @@ header{
 h1{
   width: 100%;
   display: block;
+  font-family: 'Arvo', Georgia, serif;
+  font-weight: 800;
+  font-size: ($font-size +11) / $em;margin-bottom: 4px / $em;
+  margin-top: 8px / $em;
 }
 body{
-  font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; 
-  background: #d4d4d4 url("../images/background.png");
-  color: rgba(0, 0, 0, .3);
+  font-family: 'Vollkorn', Georgia, serif; 
+  background-color: #f5f6ff;
+  color: #666;
+  visibility: hidden;
+}
+.wf-active body{
+    visibility: visible;  
 }
 header, #intro{
   text-align: center;
 }
 a, a:visited{
-  color: #858585;
+  color: #369BCA;
   text-decoration: none;
 }
 a:hover{
-  color: #464646;
+  opacity: 0.5;
 }
 p{
   line-height: 1.5em;
@@ -37,29 +42,25 @@ hr{
 }
 h2{
   margin-bottom: 6px / $em;
+  font-family: 'Arvo', Georgia, serif;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+p{
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-bottom: 1em;
 }
 #middleman{
   padding-bottom: 5em;
 }
+//******************ADAPTIVATE******************//
 /*
   Mobile layout 
   240–479 px
   Zoomed out below 320 px
 */
 @media screen and (min-width: 15em) {
-  
-  //Typography
-  p{
-    font-size: ($font-size - 4) / $em;
-  }
-  h1{
-    font-size: ($font-size +11) / $em;margin-bottom: 4px / $em;
-    margin-top: 8px / $em;
-  }
-  h2{
-    font-size: ($font-size - 3) / $em;
-  }
-  //Grid
   header{
     @include width(4);
   }
@@ -67,7 +68,6 @@ h2{
     margin: 0 auto;
     @include width(4);
   }
-
   #intro{
     @include width(4);
   }
@@ -81,18 +81,12 @@ h2{
   Zoomed in above 480 px
 */
 @media screen and (min-width: 30em) {
-  
-  //Typography
-  p{
-    font-size: ($font-size - 2) / $em;
-  }
   h1{
-    font-size: ($font-size + 20) / $em;
+    font-size: 3em;
   }
   h2{
-    font-size: ($font-size - 1) / $em;
+    font-size: 1.5em;
   }
-  //Grid
   header{
     @include width(6);
   }
@@ -112,18 +106,12 @@ h2{
   Zoomed in above 600 px
 */
 @media screen and (min-width: 37.5em) {
-  
-  //Typography
-  p {
-    font-size: ($font-size - 2) / $em;
-  }
   h1{
-    font-size: ($font-size + 30) / $em;
+    font-size: 4em;
   }
   h2{
-    font-size: ($font-size - 1) / $em;
+    font-size: 2em;
   }
-  //Grid
   header{
     @include width(8);
   }
@@ -151,13 +139,13 @@ h2{
 @media screen and (min-width: 57em) {
   //Typography
   p {
-    font-size: ($font-size) / $em;
+    font-size: 1.1em;
   }
   h1{
-    font-size: ($font-size + 50) / $em;
+    font-size: 4.1em;
   }
   h2{
-    font-size: ($font-size + 1) / $em;
+    font-size: 2.1em;
   }
   //Grid
   header{
