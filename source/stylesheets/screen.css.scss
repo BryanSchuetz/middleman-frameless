@@ -1,6 +1,7 @@
 //Imports
 @import "modules/grid";
-@import "modules/normalize";
+@import "partials/normalize";
+@import "compass/css3";
 header{
   margin-right: auto;
   margin-left: auto;
