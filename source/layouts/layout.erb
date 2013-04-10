@@ -1,0 +1,11 @@
+<!doctype html>
+<%= partial "ie-hacks" %>
+  <head>
+    <%= partial "head-meta" %>
+    <title><%= data.page.title %> </title>
+    <%= partial "head-links" %>
+  </head>
+  <body lang="en">
+   <%= yield %>
+  </body>
+</html>
