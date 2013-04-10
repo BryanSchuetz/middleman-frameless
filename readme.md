@@ -1,7 +1,6 @@
 # Middleman Project Template: with Frameless adaptive grid
 ------
-**Demo: http://bryanschuetz.github.io/middleman-frameless/**
-------
+
 ## Basics
 Just your basic blank slate of a [Middleman](http://middlemanapp.com/) --rack project, including grid SASS from [Frameless](http://framelessgrid.com/).
 
@@ -12,6 +11,9 @@ Just your basic blank slate of a [Middleman](http://middlemanapp.com/) --rack pr
 * Make it repeat infinitely
 * Center it in the viewport
 * Profit
+
+## Demo
+http://bryanschuetz.github.io/middleman-frameless/**
 
 ## Usage
 
