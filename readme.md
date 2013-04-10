@@ -13,7 +13,7 @@ Just your basic blank slate of a [Middleman](http://middlemanapp.com/) --rack pr
 * Profit
 
 ## Demo
-http://bryanschuetz.github.io/middleman-frameless/**
+http://bryanschuetz.github.io/middleman-frameless/
 
 ## Usage
 
